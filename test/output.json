@@ -1,0 +1,728 @@
+[
+    {
+        "name": "search_area_number",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "search_area_name",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "search_area_custom1",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "search_area_custom2",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "search_area_custom3",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "search_area_custom4",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "search_area_custom5",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "search_area_custom6",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "search_area_custom7",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "search_area_custom8",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "site_manager_node_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "site_manager_bs_type",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "site_manager_u_hsdpa_supported",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "site_manager_custom1",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "site_manager_custom2",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "site_manager_custom3",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "site_manager_custom4",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "site_manager_custom8",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "site_name",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "site_planner",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "site_project_manager",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "site_indent_code",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "site_longitude",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "site_latitude",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "site_flag1",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "site_flag2",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "site_flag4",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "site_custom1",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "site_custom2",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "site_custom3",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "site_custom4",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "site_custom5",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "site_custom6",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "site_custom7",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "cell_type",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "cell_active",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "cell_node_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "cell_time_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "cell_ne_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "bis_date",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "cell_proposed_cell_end",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "cell_ci STRING",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "cell_flag2",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "cell_flag3",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "cell_custom1",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "cell_custom2",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "cell_custom3",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "cell_custom4",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "cell_custom5",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "cell_custom6",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "cell_custom7",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "cell_custom8",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "vendor",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "cell_rac",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "cell_lac",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "cell_g_ncc",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "cell_g_bcch",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "cell_g_bcc",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "cell_u_code_group",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "cell_u_sub_code_group",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "cell_u_noise_figure_db",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "cell_u_max_tx_power_dbm",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "cell_u_psch_power_db",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "cell_u_ssch_power_db",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "cell_u_pch_power_db",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "cell_u_bch_power_db",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "cell_u_pich_power_db",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "cell_u_aich_power_db",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "cell_u_hsdpa_non_alloc_thres_perc",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "cell_u_hsdpa_number_codes",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "cell_u_hsdpa_power_db",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "cell_u_hsdpa_power_decline_db",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "cell_l_pci",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "cell_l_tac",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "cell_l_bandwidth_mhz",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "prach_rsi",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "number_of_required_prach_rsi",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "prach_preamble_format",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "channel_allocation_status_pci",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "channel_allocation_status_rsi",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "max_range_m",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "zone_g_n_trx",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "zone_g_fh_mode",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "zone_g_tch",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "zone_fs_power_dbm",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "zone_g_demand_non_hop_trx",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "zone_g_demand_trx_fhs1",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "zone_l_nbr_tx_path",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "zone_l_nbr_rx_path",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "zone_custom1",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "zone_custom2",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "zone_custom3",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "zone_custom4",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "antenna_system_site_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "antenna_system_active",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "antenna_system_longitude",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "antenna_system_latitude",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "antenna_system_height_m",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "antenna_system_name",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "antenna_system_direction_deg",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "antenna_system_el_tilt_deg",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "antenna_system_me_tilt_deg",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "antenna_system_structure",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "antenna_system_cable_loss_db",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "antenna_system_tma_gain_db",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "antenna_system_combiner_db",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "antenna_system_index",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "antenna_system_custom1",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "antenna_system_custom2",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "antenna_system_custom3",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "antenna_system_custom4",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "antenna_system_custom5",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "antenna_system_custom6",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "pss_epre_offset_db",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "pbch_epre_offset_db",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "pdcch_epre_offset_db",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "pdsch_epre_offset_db",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "sss_epre_power_db",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "cell_max_power_db",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "e",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    },
+    {
+        "name": "amfid",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "desc": ""
+    }
+]
