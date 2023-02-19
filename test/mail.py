@@ -56,34 +56,74 @@ for email_id in email_ids:
 
     # Get the subject of the email
     subject = email_message["subject"]
-
-    # Check if the subject contains "critical", "major", or "minor"
-    if "critical" in subject.lower():
-        # Forward the email to the dev team email
-        send_email("anand00rohit@gmail.com", subject, email_message.as_string())
-    elif "major" in subject.lower():
-        # Forward the email to the dev team email
-        send_email("anand00rohit@gmail.com", subject, email_message.as_string())
-    elif "minor" in subject.lower():
-        # Forward the email to the dev team email
-        send_email("insanecs03@gmail.com", subject, email_message.as_string())
-
     # Get the body of the email
     body = email_message.get_payload(decode=True).decode()
 
+    # Check if the subject contains "critical", "major", or "minor"
+    if "critical" in subject.lower():
+        # Check if the body contains "ACM", "IBM", or "ACC"
+        if "ACM" in body:
+            # Forward the email to the ACM team email
+            send_email("acm_team@example.com", subject, email_message.as_string())
+        elif "DM" in body:
+            # Forward the email to the IBM team email
+            send_email("ibm_team@example.com", subject, email_message.as_string())
+        elif "midapps" in body:
+            # Forward the email to the ACC team email
+            send_email("acc_team@example.com", subject, email_message.as_string())
+        elif "cmp" in body:
+            # Forward the email to the ACC team email
+            send_email("acc_team@example.com", subject, email_message.as_string())
+        # Forward the email to the dev team email
+        # send_email("anand00rohit@gmail.com", subject, email_message.as_string())
+    elif "major" in subject.lower():
+        # Check if the body contains "ACM", "IBM", or "ACC"
+        if "ACM" in body:
+            # Forward the email to the ACM team email
+            send_email("acm_team@example.com", subject, email_message.as_string())
+        elif "DM" in body:
+            # Forward the email to the IBM team email
+            send_email("ibm_team@example.com", subject, email_message.as_string())
+        elif "midapps" in body:
+            # Forward the email to the ACC team email
+            send_email("acc_team@example.com", subject, email_message.as_string())
+        elif "cmp" in body:
+            # Forward the email to the ACC team email
+            send_email("acc_team@example.com", subject, email_message.as_string())
+        # Forward the email to the dev team email
+        # send_email("anand00rohit@gmail.com", subject, email_message.as_string())
+    elif "minor" in subject.lower():
+        # Check if the body contains "ACM", "IBM", or "ACC"
+        if "ACM" in body:
+            # Forward the email to the ACM team email
+            send_email("acm_team@example.com", subject, email_message.as_string())
+        elif "DM" in body:
+            # Forward the email to the IBM team email
+            send_email("ibm_team@example.com", subject, email_message.as_string())
+        elif "midapps" in body:
+            # Forward the email to the ACC team email
+            send_email("acc_team@example.com", subject, email_message.as_string())
+        elif "cmp" in body:
+            # Forward the email to the ACC team email
+            send_email("acc_team@example.com", subject, email_message.as_string())
+        # Forward the email to the dev team email
+        # send_email("insanecs03@gmail.com", subject, email_message.as_string())
+
+
+
     # Check if the body contains "ACM", "IBM", or "ACC"
-    if "ACM" in body:
-        # Forward the email to the ACM team email
-        send_email("acm_team@example.com", subject, email_message.as_string())
-    elif "DM" in body:
-        # Forward the email to the IBM team email
-        send_email("ibm_team@example.com", subject, email_message.as_string())
-    elif "midapps" in body:
-        # Forward the email to the ACC team email
-        send_email("acc_team@example.com", subject, email_message.as_string())
-    elif "cmp" in body:
-        # Forward the email to the ACC team email
-        send_email("acc_team@example.com", subject, email_message.as_string())
+    # if "ACM" in body:
+    #     # Forward the email to the ACM team email
+    #     send_email("acm_team@example.com", subject, email_message.as_string())
+    # elif "DM" in body:
+    #     # Forward the email to the IBM team email
+    #     send_email("ibm_team@example.com", subject, email_message.as_string())
+    # elif "midapps" in body:
+    #     # Forward the email to the ACC team email
+    #     send_email("acc_team@example.com", subject, email_message.as_string())
+    # elif "cmp" in body:
+    #     # Forward the email to the ACC team email
+    #     send_email("acc_team@example.com", subject, email_message.as_string())
 
 # Close the connection
 mail.close()
